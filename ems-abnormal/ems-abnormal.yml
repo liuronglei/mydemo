@@ -5,11 +5,11 @@ spring:
     neo4j:
       username: neo4j
       password: neo4j@wankeauto.com
-      uri: http://192.168.2.13:7475
+      uri: http://192.168.2.13:7479
   redis:
     database: 0
     host: 192.168.2.13
-    port: 8811
+    port: 8812
     password: Jhf&*d93jfdKJSf
     pool:
       max-active: 400
@@ -19,7 +19,7 @@ spring:
     timeout: 0
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://192.168.2.13:3306/sgool?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://192.168.2.13:3306/sgool2?useUnicode=true&characterEncoding=utf-8
     username: wanke
     password: 5j1#H!^d
     driverClassName: com.mysql.jdbc.Driver
