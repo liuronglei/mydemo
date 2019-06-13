@@ -3,7 +3,7 @@ server:
 spring: 
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://192.168.2.13:3306/sgool?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://192.168.2.13:3306/sgool4?useUnicode=true&characterEncoding=utf-8
     username: wanke
     password: 5j1#H!^d
     driverClassName: com.mysql.jdbc.Driver
@@ -30,12 +30,3 @@ spring:
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
   jpa:
     database: mysql
-hbase:
-  zookeeper:
-    quorum: 192.168.2.32
-    property:
-      clientPort: 2181
-  rootdir: hdfs://192.168.2.32:9000/hbase
-  client:
-    keyvalue:
-      maxsize: 500000
