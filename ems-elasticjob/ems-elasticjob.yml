@@ -30,6 +30,11 @@ spring:
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
   jpa:
     database: mysql
+  data: 
+    neo4j:
+      username: neo4j
+      password: neo4j@wankeauto.com
+      uri: http://192.168.2.13:7479
 elaticjob: 
   zookeeper: 
     server-lists: 192.168.2.32:2181
