@@ -1,5 +1,5 @@
 server:
-  port: 8804
+  port: 8803
 spring:
   data: 
     neo4j:
